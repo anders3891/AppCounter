@@ -7,7 +7,7 @@ public class Counter implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
-    private int count = 10;
+    private int count = 0;
 
     public void increment() {
         count++;
@@ -23,8 +23,7 @@ public class Counter implements Serializable {
 
     @Override
     public String toString() {
-        Integer integer = count;
-        return Integer.toString(integer);
+        return Integer.toString(count);
     }
 }
 

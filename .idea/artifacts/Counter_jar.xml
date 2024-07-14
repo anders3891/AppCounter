@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Counter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Counter_jar</output-path>
+    <root id="archive" name="Counter.jar">
+      <element id="module-output" name="Counter" />
+    </root>
+  </artifact>
+</component>
