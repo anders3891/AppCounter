@@ -6,8 +6,11 @@ import java.io.Serializable;
 public class Counter implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
+    private int count;
 
-    private int count = 0;
+    public Counter(){
+        this.count = 0;
+    }
 
     public void increment() {
         count++;
